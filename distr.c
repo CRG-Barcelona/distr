@@ -71,8 +71,8 @@ void dist(void)
     printf("%f\t", doubleWithNAInvQuantAlreadySorted(size, array, 10, TRUE));
     printf("%f\t", doubleWithNAInvQuantAlreadySorted(size, array, 4, TRUE));
     printf("%f\t", doubleWithNAMedianAlreadySorted(size, array));
-    printf("%f\t", doubleWithNAInvQuantAlreadySorted(size, array, 4, TRUE));
-    printf("%f\n", doubleWithNAInvQuantAlreadySorted(size, array, 10, TRUE));
+    printf("%f\t", doubleWithNAInvQuantAlreadySorted(size, array, 4, FALSE));
+    printf("%f\n", doubleWithNAInvQuantAlreadySorted(size, array, 10, FALSE));
     freeMem(array);
 }
 
